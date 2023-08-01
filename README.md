@@ -24,7 +24,7 @@ docker-compose up -d --build
 Step 3: To manage the MySQL instance, obtain the MySQL root password and store it in a file using the following command:
 
 ```bash
-docker logs -f mysql-5.71 | grep --line-buffered "GENERATED" >> mysql-root-credentials.txt
+docker logs -f mysql-5.7 | grep --line-buffered "GENERATED" >> mysql-root-credentials.txt
 ```
 
 ## Accessing the Web Application
